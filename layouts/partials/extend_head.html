@@ -1,0 +1,35 @@
+<style>
+  .first-entry.home-info {
+    position: relative;
+    padding: 80px 20px;
+    background-image: url('{{ .Site.BaseURL }}img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    overflow: hidden;
+    min-height: 320px;
+  }
+
+  .first-entry.home-info::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.50);
+    border-radius: 12px;
+    z-index: 0;
+  }
+
+  .first-entry.home-info .entry-header,
+  .first-entry.home-info .entry-content,
+  .first-entry.home-info .entry-footer {
+    position: relative;
+    z-index: 1;
+  }
+
+  .first-entry.home-info h1,
+  .first-entry.home-info p,
+  .first-entry.home-info a {
+    color: #ffffff !important;
+  }
+</style>

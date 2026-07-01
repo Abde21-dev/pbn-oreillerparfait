@@ -1,0 +1,54 @@
+baseURL = "https://oreillerparfait.fr/"
+languageCode = "fr-fr"
+defaultContentLanguage = "fr"
+title = "Oreiller Parfait — Guide & Conseils"
+theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+
+[params]
+  description = "Guide complet pour choisir le bon oreiller : comparatifs, conseils d'experts et avis pour mieux dormir chaque nuit."
+  DateFormat = "2 January 2006"
+  defaultTheme = "light"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowToc = true
+  ShowFullTextinRSS = false
+
+[params.cover]
+  hidden = false
+  hiddenInList = false
+  hiddenInSingle = false
+  linkFullImages = true
+  responsiveImages = false
+
+[params.homeInfoParams]
+  Title = "Bienvenue sur Oreiller Parfait"
+  Content = "Trouvez l'oreiller idéal pour votre position de sommeil, vos préférences et votre budget. Guides, comparatifs et conseils d'experts."
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[menu]
+  [[menu.main]]
+    identifier = "accueil"
+    name = "Accueil"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "articles"
+    name = "Articles"
+    url = "/posts/"
+    weight = 2

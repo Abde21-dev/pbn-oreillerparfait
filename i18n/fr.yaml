@@ -1,0 +1,32 @@
+- id: toc
+  translation: "Table des matières"
+
+- id: prev_page
+  translation: "Article précédent"
+
+- id: next_page
+  translation: "Article suivant"
+
+- id: read_time
+  translation: "min de lecture"
+
+- id: words
+  translation: "mots"
+
+- id: home
+  translation: "Accueil"
+
+- id: share
+  translation: "Partager"
+
+- id: edit
+  translation: "Modifier"
+
+- id: search_placeholder
+  translation: "Rechercher..."
+
+- id: search_result_heading
+  translation: "Résultats pour"
+
+- id: no_results_text
+  translation: "Aucun résultat trouvé"
